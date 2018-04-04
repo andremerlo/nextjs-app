@@ -1,0 +1,25 @@
+{
+  "name": "julius-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-inline-dotenv": "^1.1.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.3.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "net": "^1.0.2",
+    "next": "^5.1.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "request": "^2.85.0",
+    "tls": "0.0.1"
+  }
+}

@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+
+# nodejs
+node_modules
+.next
+
+# project
+.env*
