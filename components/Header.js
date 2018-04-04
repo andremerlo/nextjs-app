@@ -19,6 +19,9 @@ const Header = () => {
         <Link href="/showcase/home" as="/beatrizuezu/" >
           <a style={linkStyle}>Beatriz</a>
         </Link>
+        <Link href="/showcase/home" as="/andremerlo/" >
+          <a style={linkStyle}>andremerlo</a>
+        </Link>
         <Link href="/showcase/home" as="/naoexistemesmo/" >
           <a style={linkStyle}>Não Existe</a>
         </Link>

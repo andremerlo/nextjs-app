@@ -41,7 +41,7 @@ export default class extends Component {
                 ) : (
                     <div>
                         <strong>Divulgador:</strong> { this.props.showcase.owner }
-                        <ShowcaseList lists={this.props.showcase.lists} />
+                        <ShowcaseList lists={this.props.showcase.lists} storeName={this.props.showcase.name}/>
                     </div>    
                 )}
             </Layout>

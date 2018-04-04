@@ -22,6 +22,11 @@ app.prepare()
       return app.render(req, res, '/showcase/home', req.query)
     })
 
+    server.get('/:storeName/l/:slug/:id/', (req, res) => {
+      console.log('product list route')
+      return app.render(req, res, '/showcase/list', { ...req.params })
+    })
+
     server.get('*', (req, res) => {
       return handle(req, res)
     })
